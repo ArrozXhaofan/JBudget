@@ -6,6 +6,60 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		32DF056F2D840C4A0025F76D /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF052A2D840C4A0025F76D /* Budget.swift */; };
+		32DF05702D840C4A0025F76D /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF052B2D840C4A0025F76D /* Expense.swift */; };
+		32DF05712D840C4A0025F76D /* Income.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF052C2D840C4A0025F76D /* Income.swift */; };
+		32DF05722D840C4A0025F76D /* Wish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF052D2D840C4A0025F76D /* Wish.swift */; };
+		32DF05732D840C4A0025F76D /* PrevData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF052F2D840C4A0025F76D /* PrevData.swift */; };
+		32DF05742D840C4A0025F76D /* BudgetRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF05322D840C4A0025F76D /* BudgetRepository.swift */; };
+		32DF05752D840C4A0025F76D /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF05332D840C4A0025F76D /* Database.swift */; };
+		32DF05762D840C4A0025F76D /* ExpenseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF05342D840C4A0025F76D /* ExpenseRepository.swift */; };
+		32DF05772D840C4A0025F76D /* IncomeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF05352D840C4A0025F76D /* IncomeRepository.swift */; };
+		32DF05782D840C4A0025F76D /* WishRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF05362D840C4A0025F76D /* WishRepository.swift */; };
+		32DF05792D840C4A0025F76D /* MapLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF05382D840C4A0025F76D /* MapLocationService.swift */; };
+		32DF057A2D840C4A0025F76D /* CreateBudgetUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF053A2D840C4A0025F76D /* CreateBudgetUseCase.swift */; };
+		32DF057B2D840C4A0025F76D /* DeleteBudgetUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF053B2D840C4A0025F76D /* DeleteBudgetUseCase.swift */; };
+		32DF057C2D840C4A0025F76D /* GetAllBudgetsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF053C2D840C4A0025F76D /* GetAllBudgetsUseCase.swift */; };
+		32DF057D2D840C4A0025F76D /* UpdateBudgetUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF053D2D840C4A0025F76D /* UpdateBudgetUseCase.swift */; };
+		32DF057E2D840C4A0025F76D /* CreateExpenseUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF053F2D840C4A0025F76D /* CreateExpenseUseCase.swift */; };
+		32DF057F2D840C4A0025F76D /* DeleteExpenseUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF05402D840C4A0025F76D /* DeleteExpenseUseCase.swift */; };
+		32DF05802D840C4A0025F76D /* GetAllExpensesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF05412D840C4A0025F76D /* GetAllExpensesUseCase.swift */; };
+		32DF05812D840C4A0025F76D /* UpdateExpenseUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF05422D840C4A0025F76D /* UpdateExpenseUseCase.swift */; };
+		32DF05822D840C4A0025F76D /* CreateIncomeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF05442D840C4A0025F76D /* CreateIncomeUseCase.swift */; };
+		32DF05832D840C4A0025F76D /* DeleteIncomeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF05452D840C4A0025F76D /* DeleteIncomeUseCase.swift */; };
+		32DF05842D840C4A0025F76D /* GetAllIncomesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF05462D840C4A0025F76D /* GetAllIncomesUseCase.swift */; };
+		32DF05852D840C4A0025F76D /* UpdateIncomeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF05472D840C4A0025F76D /* UpdateIncomeUseCase.swift */; };
+		32DF05862D840C4A0025F76D /* CreateWishUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF05492D840C4A0025F76D /* CreateWishUseCase.swift */; };
+		32DF05872D840C4A0025F76D /* DeleteWishUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF054A2D840C4A0025F76D /* DeleteWishUseCase.swift */; };
+		32DF05882D840C4A0025F76D /* GetAllWishUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF054B2D840C4A0025F76D /* GetAllWishUseCase.swift */; };
+		32DF05892D840C4A0025F76D /* UpdateWishUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF054C2D840C4A0025F76D /* UpdateWishUseCase.swift */; };
+		32DF058A2D840C4A0025F76D /* ExtraEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF054F2D840C4A0025F76D /* ExtraEnums.swift */; };
+		32DF058B2D840C4A0025F76D /* ExtraFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF05502D840C4A0025F76D /* ExtraFuncs.swift */; };
+		32DF058C2D840C4A0025F76D /* ModelUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF05512D840C4A0025F76D /* ModelUtils.swift */; };
+		32DF058D2D840C4A0025F76D /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF05522D840C4A0025F76D /* Structs.swift */; };
+		32DF058E2D840C4A0025F76D /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF05542D840C4A0025F76D /* ExploreViewModel.swift */; };
+		32DF058F2D840C4A0025F76D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF05552D840C4A0025F76D /* HomeViewModel.swift */; };
+		32DF05902D840C4A0025F76D /* DataCellPrev.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF05572D840C4A0025F76D /* DataCellPrev.swift */; };
+		32DF05912D840C4A0025F76D /* WishCellForAddPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF05582D840C4A0025F76D /* WishCellForAddPlace.swift */; };
+		32DF05922D840C4A0025F76D /* AddBudget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF055A2D840C4A0025F76D /* AddBudget.swift */; };
+		32DF05932D840C4A0025F76D /* AddInc&Exp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF055B2D840C4A0025F76D /* AddInc&Exp.swift */; };
+		32DF05942D840C4A0025F76D /* AddWish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF055C2D840C4A0025F76D /* AddWish.swift */; };
+		32DF05952D840C4A0025F76D /* SheetAddItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF055D2D840C4A0025F76D /* SheetAddItems.swift */; };
+		32DF05962D840C4A0025F76D /* BudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF055F2D840C4A0025F76D /* BudgetView.swift */; };
+		32DF05972D840C4A0025F76D /* CircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF05612D840C4A0025F76D /* CircularProgress.swift */; };
+		32DF05982D840C4A0025F76D /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF05622D840C4A0025F76D /* SearchBar.swift */; };
+		32DF05992D840C4A0025F76D /* UIMyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF05632D840C4A0025F76D /* UIMyButton.swift */; };
+		32DF059A2D840C4A0025F76D /* UIMyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF05642D840C4A0025F76D /* UIMyList.swift */; };
+		32DF059B2D840C4A0025F76D /* UIMyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF05652D840C4A0025F76D /* UIMyTextField.swift */; };
+		32DF059C2D840C4A0025F76D /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF05672D840C4A0025F76D /* ExploreView.swift */; };
+		32DF059D2D840C4A0025F76D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF05682D840C4A0025F76D /* HomeView.swift */; };
+		32DF059E2D840C4A0025F76D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF05692D840C4A0025F76D /* MainView.swift */; };
+		32DF059F2D840C4A0025F76D /* JBudgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF056D2D840C4A0025F76D /* JBudgetApp.swift */; };
+		32DF05A02D840C4A0025F76D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32DF05302D840C4A0025F76D /* Preview Assets.xcassets */; };
+		32DF05A12D840C4A0025F76D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32DF056B2D840C4A0025F76D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		32DF04152D84089A0025F76D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,14 +81,61 @@
 		32DF04032D8408980025F76D /* JBudget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JBudget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32DF04142D84089A0025F76D /* JBudgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JBudgetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32DF041E2D84089A0025F76D /* JBudgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JBudgetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32DF052A2D840C4A0025F76D /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
+		32DF052B2D840C4A0025F76D /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		32DF052C2D840C4A0025F76D /* Income.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Income.swift; sourceTree = "<group>"; };
+		32DF052D2D840C4A0025F76D /* Wish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wish.swift; sourceTree = "<group>"; };
+		32DF052F2D840C4A0025F76D /* PrevData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrevData.swift; sourceTree = "<group>"; };
+		32DF05302D840C4A0025F76D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32DF05322D840C4A0025F76D /* BudgetRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetRepository.swift; sourceTree = "<group>"; };
+		32DF05332D840C4A0025F76D /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		32DF05342D840C4A0025F76D /* ExpenseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseRepository.swift; sourceTree = "<group>"; };
+		32DF05352D840C4A0025F76D /* IncomeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeRepository.swift; sourceTree = "<group>"; };
+		32DF05362D840C4A0025F76D /* WishRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishRepository.swift; sourceTree = "<group>"; };
+		32DF05382D840C4A0025F76D /* MapLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLocationService.swift; sourceTree = "<group>"; };
+		32DF053A2D840C4A0025F76D /* CreateBudgetUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateBudgetUseCase.swift; sourceTree = "<group>"; };
+		32DF053B2D840C4A0025F76D /* DeleteBudgetUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteBudgetUseCase.swift; sourceTree = "<group>"; };
+		32DF053C2D840C4A0025F76D /* GetAllBudgetsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllBudgetsUseCase.swift; sourceTree = "<group>"; };
+		32DF053D2D840C4A0025F76D /* UpdateBudgetUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateBudgetUseCase.swift; sourceTree = "<group>"; };
+		32DF053F2D840C4A0025F76D /* CreateExpenseUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateExpenseUseCase.swift; sourceTree = "<group>"; };
+		32DF05402D840C4A0025F76D /* DeleteExpenseUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteExpenseUseCase.swift; sourceTree = "<group>"; };
+		32DF05412D840C4A0025F76D /* GetAllExpensesUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllExpensesUseCase.swift; sourceTree = "<group>"; };
+		32DF05422D840C4A0025F76D /* UpdateExpenseUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateExpenseUseCase.swift; sourceTree = "<group>"; };
+		32DF05442D840C4A0025F76D /* CreateIncomeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateIncomeUseCase.swift; sourceTree = "<group>"; };
+		32DF05452D840C4A0025F76D /* DeleteIncomeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteIncomeUseCase.swift; sourceTree = "<group>"; };
+		32DF05462D840C4A0025F76D /* GetAllIncomesUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllIncomesUseCase.swift; sourceTree = "<group>"; };
+		32DF05472D840C4A0025F76D /* UpdateIncomeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateIncomeUseCase.swift; sourceTree = "<group>"; };
+		32DF05492D840C4A0025F76D /* CreateWishUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWishUseCase.swift; sourceTree = "<group>"; };
+		32DF054A2D840C4A0025F76D /* DeleteWishUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteWishUseCase.swift; sourceTree = "<group>"; };
+		32DF054B2D840C4A0025F76D /* GetAllWishUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllWishUseCase.swift; sourceTree = "<group>"; };
+		32DF054C2D840C4A0025F76D /* UpdateWishUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateWishUseCase.swift; sourceTree = "<group>"; };
+		32DF054F2D840C4A0025F76D /* ExtraEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraEnums.swift; sourceTree = "<group>"; };
+		32DF05502D840C4A0025F76D /* ExtraFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraFuncs.swift; sourceTree = "<group>"; };
+		32DF05512D840C4A0025F76D /* ModelUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelUtils.swift; sourceTree = "<group>"; };
+		32DF05522D840C4A0025F76D /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		32DF05542D840C4A0025F76D /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
+		32DF05552D840C4A0025F76D /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		32DF05572D840C4A0025F76D /* DataCellPrev.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCellPrev.swift; sourceTree = "<group>"; };
+		32DF05582D840C4A0025F76D /* WishCellForAddPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishCellForAddPlace.swift; sourceTree = "<group>"; };
+		32DF055A2D840C4A0025F76D /* AddBudget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBudget.swift; sourceTree = "<group>"; };
+		32DF055B2D840C4A0025F76D /* AddInc&Exp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddInc&Exp.swift"; sourceTree = "<group>"; };
+		32DF055C2D840C4A0025F76D /* AddWish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWish.swift; sourceTree = "<group>"; };
+		32DF055D2D840C4A0025F76D /* SheetAddItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetAddItems.swift; sourceTree = "<group>"; };
+		32DF055F2D840C4A0025F76D /* BudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetView.swift; sourceTree = "<group>"; };
+		32DF05612D840C4A0025F76D /* CircularProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgress.swift; sourceTree = "<group>"; };
+		32DF05622D840C4A0025F76D /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		32DF05632D840C4A0025F76D /* UIMyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIMyButton.swift; sourceTree = "<group>"; };
+		32DF05642D840C4A0025F76D /* UIMyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIMyList.swift; sourceTree = "<group>"; };
+		32DF05652D840C4A0025F76D /* UIMyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIMyTextField.swift; sourceTree = "<group>"; };
+		32DF05672D840C4A0025F76D /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		32DF05682D840C4A0025F76D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		32DF05692D840C4A0025F76D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		32DF056B2D840C4A0025F76D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32DF056C2D840C4A0025F76D /* JBudget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JBudget.entitlements; sourceTree = "<group>"; };
+		32DF056D2D840C4A0025F76D /* JBudgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBudgetApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		32DF04052D8408980025F76D /* JBudget */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = JBudget;
-			sourceTree = "<group>";
-		};
 		32DF04172D84089A0025F76D /* JBudgetTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = JBudgetTests;
@@ -75,7 +176,7 @@
 		32DF03FA2D8408980025F76D = {
 			isa = PBXGroup;
 			children = (
-				32DF04052D8408980025F76D /* JBudget */,
+				32DF056E2D840C4A0025F76D /* JBudget */,
 				32DF04172D84089A0025F76D /* JBudgetTests */,
 				32DF04212D84089A0025F76D /* JBudgetUITests */,
 				32DF04042D8408980025F76D /* Products */,
@@ -92,6 +193,193 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		32DF052E2D840C4A0025F76D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				32DF052A2D840C4A0025F76D /* Budget.swift */,
+				32DF052B2D840C4A0025F76D /* Expense.swift */,
+				32DF052C2D840C4A0025F76D /* Income.swift */,
+				32DF052D2D840C4A0025F76D /* Wish.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		32DF05312D840C4A0025F76D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				32DF052F2D840C4A0025F76D /* PrevData.swift */,
+				32DF05302D840C4A0025F76D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		32DF05372D840C4A0025F76D /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				32DF05322D840C4A0025F76D /* BudgetRepository.swift */,
+				32DF05332D840C4A0025F76D /* Database.swift */,
+				32DF05342D840C4A0025F76D /* ExpenseRepository.swift */,
+				32DF05352D840C4A0025F76D /* IncomeRepository.swift */,
+				32DF05362D840C4A0025F76D /* WishRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		32DF05392D840C4A0025F76D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				32DF05382D840C4A0025F76D /* MapLocationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		32DF053E2D840C4A0025F76D /* BudgetUseCases */ = {
+			isa = PBXGroup;
+			children = (
+				32DF053A2D840C4A0025F76D /* CreateBudgetUseCase.swift */,
+				32DF053B2D840C4A0025F76D /* DeleteBudgetUseCase.swift */,
+				32DF053C2D840C4A0025F76D /* GetAllBudgetsUseCase.swift */,
+				32DF053D2D840C4A0025F76D /* UpdateBudgetUseCase.swift */,
+			);
+			path = BudgetUseCases;
+			sourceTree = "<group>";
+		};
+		32DF05432D840C4A0025F76D /* ExpenseUseCases */ = {
+			isa = PBXGroup;
+			children = (
+				32DF053F2D840C4A0025F76D /* CreateExpenseUseCase.swift */,
+				32DF05402D840C4A0025F76D /* DeleteExpenseUseCase.swift */,
+				32DF05412D840C4A0025F76D /* GetAllExpensesUseCase.swift */,
+				32DF05422D840C4A0025F76D /* UpdateExpenseUseCase.swift */,
+			);
+			path = ExpenseUseCases;
+			sourceTree = "<group>";
+		};
+		32DF05482D840C4A0025F76D /* IncomeUseCases */ = {
+			isa = PBXGroup;
+			children = (
+				32DF05442D840C4A0025F76D /* CreateIncomeUseCase.swift */,
+				32DF05452D840C4A0025F76D /* DeleteIncomeUseCase.swift */,
+				32DF05462D840C4A0025F76D /* GetAllIncomesUseCase.swift */,
+				32DF05472D840C4A0025F76D /* UpdateIncomeUseCase.swift */,
+			);
+			path = IncomeUseCases;
+			sourceTree = "<group>";
+		};
+		32DF054D2D840C4A0025F76D /* WishUseCases */ = {
+			isa = PBXGroup;
+			children = (
+				32DF05492D840C4A0025F76D /* CreateWishUseCase.swift */,
+				32DF054A2D840C4A0025F76D /* DeleteWishUseCase.swift */,
+				32DF054B2D840C4A0025F76D /* GetAllWishUseCase.swift */,
+				32DF054C2D840C4A0025F76D /* UpdateWishUseCase.swift */,
+			);
+			path = WishUseCases;
+			sourceTree = "<group>";
+		};
+		32DF054E2D840C4A0025F76D /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				32DF053E2D840C4A0025F76D /* BudgetUseCases */,
+				32DF05432D840C4A0025F76D /* ExpenseUseCases */,
+				32DF05482D840C4A0025F76D /* IncomeUseCases */,
+				32DF054D2D840C4A0025F76D /* WishUseCases */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		32DF05532D840C4A0025F76D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				32DF054F2D840C4A0025F76D /* ExtraEnums.swift */,
+				32DF05502D840C4A0025F76D /* ExtraFuncs.swift */,
+				32DF05512D840C4A0025F76D /* ModelUtils.swift */,
+				32DF05522D840C4A0025F76D /* Structs.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		32DF05562D840C4A0025F76D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				32DF05542D840C4A0025F76D /* ExploreViewModel.swift */,
+				32DF05552D840C4A0025F76D /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		32DF05592D840C4A0025F76D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				32DF05572D840C4A0025F76D /* DataCellPrev.swift */,
+				32DF05582D840C4A0025F76D /* WishCellForAddPlace.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		32DF055E2D840C4A0025F76D /* AddItems */ = {
+			isa = PBXGroup;
+			children = (
+				32DF055A2D840C4A0025F76D /* AddBudget.swift */,
+				32DF055B2D840C4A0025F76D /* AddInc&Exp.swift */,
+				32DF055C2D840C4A0025F76D /* AddWish.swift */,
+				32DF055D2D840C4A0025F76D /* SheetAddItems.swift */,
+			);
+			path = AddItems;
+			sourceTree = "<group>";
+		};
+		32DF05602D840C4A0025F76D /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				32DF055E2D840C4A0025F76D /* AddItems */,
+				32DF055F2D840C4A0025F76D /* BudgetView.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		32DF05662D840C4A0025F76D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				32DF05612D840C4A0025F76D /* CircularProgress.swift */,
+				32DF05622D840C4A0025F76D /* SearchBar.swift */,
+				32DF05632D840C4A0025F76D /* UIMyButton.swift */,
+				32DF05642D840C4A0025F76D /* UIMyList.swift */,
+				32DF05652D840C4A0025F76D /* UIMyTextField.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		32DF056A2D840C4A0025F76D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				32DF05592D840C4A0025F76D /* Components */,
+				32DF05602D840C4A0025F76D /* SubViews */,
+				32DF05662D840C4A0025F76D /* UI */,
+				32DF05672D840C4A0025F76D /* ExploreView.swift */,
+				32DF05682D840C4A0025F76D /* HomeView.swift */,
+				32DF05692D840C4A0025F76D /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		32DF056E2D840C4A0025F76D /* JBudget */ = {
+			isa = PBXGroup;
+			children = (
+				32DF052E2D840C4A0025F76D /* Models */,
+				32DF05312D840C4A0025F76D /* Preview Content */,
+				32DF05372D840C4A0025F76D /* Repositories */,
+				32DF05392D840C4A0025F76D /* Services */,
+				32DF054E2D840C4A0025F76D /* UseCases */,
+				32DF05532D840C4A0025F76D /* Utils */,
+				32DF05562D840C4A0025F76D /* ViewModels */,
+				32DF056A2D840C4A0025F76D /* Views */,
+				32DF056B2D840C4A0025F76D /* Assets.xcassets */,
+				32DF056C2D840C4A0025F76D /* JBudget.entitlements */,
+				32DF056D2D840C4A0025F76D /* JBudgetApp.swift */,
+			);
+			path = JBudget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +394,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				32DF04052D8408980025F76D /* JBudget */,
 			);
 			name = JBudget;
 			packageProductDependencies = (
@@ -212,6 +497,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32DF05A02D840C4A0025F76D /* Preview Assets.xcassets in Resources */,
+				32DF05A12D840C4A0025F76D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +523,55 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32DF056F2D840C4A0025F76D /* Budget.swift in Sources */,
+				32DF05702D840C4A0025F76D /* Expense.swift in Sources */,
+				32DF05712D840C4A0025F76D /* Income.swift in Sources */,
+				32DF05722D840C4A0025F76D /* Wish.swift in Sources */,
+				32DF05732D840C4A0025F76D /* PrevData.swift in Sources */,
+				32DF05742D840C4A0025F76D /* BudgetRepository.swift in Sources */,
+				32DF05752D840C4A0025F76D /* Database.swift in Sources */,
+				32DF05762D840C4A0025F76D /* ExpenseRepository.swift in Sources */,
+				32DF05772D840C4A0025F76D /* IncomeRepository.swift in Sources */,
+				32DF05782D840C4A0025F76D /* WishRepository.swift in Sources */,
+				32DF05792D840C4A0025F76D /* MapLocationService.swift in Sources */,
+				32DF057A2D840C4A0025F76D /* CreateBudgetUseCase.swift in Sources */,
+				32DF057B2D840C4A0025F76D /* DeleteBudgetUseCase.swift in Sources */,
+				32DF057C2D840C4A0025F76D /* GetAllBudgetsUseCase.swift in Sources */,
+				32DF057D2D840C4A0025F76D /* UpdateBudgetUseCase.swift in Sources */,
+				32DF057E2D840C4A0025F76D /* CreateExpenseUseCase.swift in Sources */,
+				32DF057F2D840C4A0025F76D /* DeleteExpenseUseCase.swift in Sources */,
+				32DF05802D840C4A0025F76D /* GetAllExpensesUseCase.swift in Sources */,
+				32DF05812D840C4A0025F76D /* UpdateExpenseUseCase.swift in Sources */,
+				32DF05822D840C4A0025F76D /* CreateIncomeUseCase.swift in Sources */,
+				32DF05832D840C4A0025F76D /* DeleteIncomeUseCase.swift in Sources */,
+				32DF05842D840C4A0025F76D /* GetAllIncomesUseCase.swift in Sources */,
+				32DF05852D840C4A0025F76D /* UpdateIncomeUseCase.swift in Sources */,
+				32DF05862D840C4A0025F76D /* CreateWishUseCase.swift in Sources */,
+				32DF05872D840C4A0025F76D /* DeleteWishUseCase.swift in Sources */,
+				32DF05882D840C4A0025F76D /* GetAllWishUseCase.swift in Sources */,
+				32DF05892D840C4A0025F76D /* UpdateWishUseCase.swift in Sources */,
+				32DF058A2D840C4A0025F76D /* ExtraEnums.swift in Sources */,
+				32DF058B2D840C4A0025F76D /* ExtraFuncs.swift in Sources */,
+				32DF058C2D840C4A0025F76D /* ModelUtils.swift in Sources */,
+				32DF058D2D840C4A0025F76D /* Structs.swift in Sources */,
+				32DF058E2D840C4A0025F76D /* ExploreViewModel.swift in Sources */,
+				32DF058F2D840C4A0025F76D /* HomeViewModel.swift in Sources */,
+				32DF05902D840C4A0025F76D /* DataCellPrev.swift in Sources */,
+				32DF05912D840C4A0025F76D /* WishCellForAddPlace.swift in Sources */,
+				32DF05922D840C4A0025F76D /* AddBudget.swift in Sources */,
+				32DF05932D840C4A0025F76D /* AddInc&Exp.swift in Sources */,
+				32DF05942D840C4A0025F76D /* AddWish.swift in Sources */,
+				32DF05952D840C4A0025F76D /* SheetAddItems.swift in Sources */,
+				32DF05962D840C4A0025F76D /* BudgetView.swift in Sources */,
+				32DF05972D840C4A0025F76D /* CircularProgress.swift in Sources */,
+				32DF05982D840C4A0025F76D /* SearchBar.swift in Sources */,
+				32DF05992D840C4A0025F76D /* UIMyButton.swift in Sources */,
+				32DF059A2D840C4A0025F76D /* UIMyList.swift in Sources */,
+				32DF059B2D840C4A0025F76D /* UIMyTextField.swift in Sources */,
+				32DF059C2D840C4A0025F76D /* ExploreView.swift in Sources */,
+				32DF059D2D840C4A0025F76D /* HomeView.swift in Sources */,
+				32DF059E2D840C4A0025F76D /* MainView.swift in Sources */,
+				32DF059F2D840C4A0025F76D /* JBudgetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +728,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"JBudget/Preview Content\"";
+				DEVELOPMENT_TEAM = JYU4CZQH8U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -429,6 +766,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"JBudget/Preview Content\"";
+				DEVELOPMENT_TEAM = JYU4CZQH8U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
