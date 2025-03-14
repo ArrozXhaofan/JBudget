@@ -365,6 +365,9 @@
 		32DF056E2D840C4A0025F76D /* JBudget */ = {
 			isa = PBXGroup;
 			children = (
+				32DF056B2D840C4A0025F76D /* Assets.xcassets */,
+				32DF056C2D840C4A0025F76D /* JBudget.entitlements */,
+				32DF056D2D840C4A0025F76D /* JBudgetApp.swift */,
 				32DF052E2D840C4A0025F76D /* Models */,
 				32DF05312D840C4A0025F76D /* Preview Content */,
 				32DF05372D840C4A0025F76D /* Repositories */,
@@ -373,9 +376,6 @@
 				32DF05532D840C4A0025F76D /* Utils */,
 				32DF05562D840C4A0025F76D /* ViewModels */,
 				32DF056A2D840C4A0025F76D /* Views */,
-				32DF056B2D840C4A0025F76D /* Assets.xcassets */,
-				32DF056C2D840C4A0025F76D /* JBudget.entitlements */,
-				32DF056D2D840C4A0025F76D /* JBudgetApp.swift */,
 			);
 			path = JBudget;
 			sourceTree = "<group>";

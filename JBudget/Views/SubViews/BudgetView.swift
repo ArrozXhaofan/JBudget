@@ -264,7 +264,7 @@ extension BudgetView {
                                )
         )
     }
-    .modelContainer(for: [Budget.self, Income.self, Expense.self],
-                    inMemory: true)
+    //.modelContainer(for: [Budget.self, Income.self, Expense.self],
+            //        inMemory: true)
     
 }

@@ -73,8 +73,9 @@ struct AddIncExp: View {
     NavigationStack {
         AddIncExp(vm: .constant(HomeViewModel()), typeCase: .expense)
             .modelContainer(for: [Budget.self, Income.self, Expense.self],
-                            inMemory: true)
+                                            inMemory: true)
     }
+    
 }
 
 
