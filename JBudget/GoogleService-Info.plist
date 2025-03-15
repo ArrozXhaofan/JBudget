@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyDGaGAHkEKY8H-z97Nsjo_oSMFKu_hoLQs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>602673812364</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.jeanlaura.JBudget</string>
+	<key>PROJECT_ID</key>
+	<string>jbudget-8c201</string>
+	<key>STORAGE_BUCKET</key>
+	<string>jbudget-8c201.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:602673812364:ios:d29d7e67dd21e6547b3ca9</string>
+</dict>
+</plist>
