@@ -203,7 +203,7 @@ struct DataCellPrev: View {
                     case .income:
                         manager.editIncome(identifier: data.id, name: newValue, value: txtAmount)
                     case .expense:
-                        manager.editExpense(identifier: data.id, name: txtName, value: txtAmount)
+                        manager.editExpense(identifier: data.id, name: newValue, value: txtAmount)
                     case .wishItem:
                         manager.editWishFromPrevCell(identifier: data.id,
                                                      name: newValue,
@@ -214,9 +214,9 @@ struct DataCellPrev: View {
                     switch data.type {
                     case .budget: break
                     case .income:
-                        manager.editIncome(identifier: data.id, name: txtName, value: txtAmount)
+                        manager.editIncome(identifier: data.id, name: txtName, value: newValue)
                     case .expense:
-                        manager.editExpense(identifier: data.id, name: newValue, value: txtAmount)
+                        manager.editExpense(identifier: data.id, name: txtName, value: newValue)
                     case .wishItem:
                         manager.editWishFromPrevCell(identifier: data.id,
                                                      name: txtName ,

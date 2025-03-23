@@ -7,10 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		323D4DC82D8FA83A0091E472 /* Figtree-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 323D4DC62D8FA83A0091E472 /* Figtree-VariableFont_wght.ttf */; };
+		323D4DC92D8FA83A0091E472 /* Figtree-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 323D4DBC2D8FA83A0091E472 /* Figtree-Italic.ttf */; };
+		323D4DCA2D8FA83A0091E472 /* Figtree-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 323D4DB92D8FA83A0091E472 /* Figtree-BoldItalic.ttf */; };
+		323D4DCB2D8FA83A0091E472 /* Figtree-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 323D4DC32D8FA83A0091E472 /* Figtree-SemiBoldItalic.ttf */; };
+		323D4DCC2D8FA83A0091E472 /* Figtree-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 323D4DB62D8FA83A0091E472 /* Figtree-Black.ttf */; };
+		323D4DCD2D8FA83A0091E472 /* Figtree-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 323D4DBB2D8FA83A0091E472 /* Figtree-ExtraBoldItalic.ttf */; };
+		323D4DCE2D8FA83A0091E472 /* Figtree-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 323D4DBE2D8FA83A0091E472 /* Figtree-LightItalic.ttf */; };
+		323D4DCF2D8FA83A0091E472 /* Figtree-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 323D4DC22D8FA83A0091E472 /* Figtree-SemiBold.ttf */; };
+		323D4DD02D8FA83A0091E472 /* Figtree-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 323D4DB72D8FA83A0091E472 /* Figtree-BlackItalic.ttf */; };
+		323D4DD12D8FA83A0091E472 /* Figtree-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 323D4DC52D8FA83A0091E472 /* Figtree-Italic-VariableFont_wght.ttf */; };
+		323D4DD22D8FA83A0091E472 /* Figtree-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 323D4DBA2D8FA83A0091E472 /* Figtree-ExtraBold.ttf */; };
+		323D4DD32D8FA83A0091E472 /* Figtree-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 323D4DB82D8FA83A0091E472 /* Figtree-Bold.ttf */; };
+		323D4DD42D8FA83A0091E472 /* Figtree-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 323D4DC02D8FA83A0091E472 /* Figtree-MediumItalic.ttf */; };
+		323D4DD52D8FA83A0091E472 /* Figtree-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 323D4DC12D8FA83A0091E472 /* Figtree-Regular.ttf */; };
+		323D4DD62D8FA83A0091E472 /* Figtree-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 323D4DBF2D8FA83A0091E472 /* Figtree-Medium.ttf */; };
+		323D4DD72D8FA83A0091E472 /* Figtree-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 323D4DBD2D8FA83A0091E472 /* Figtree-Light.ttf */; };
 		3252D65B2D852EB200429384 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3252D65A2D852EB200429384 /* AuthService.swift */; };
 		3252D65D2D852F1500429384 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3252D65C2D852F1500429384 /* GoogleService-Info.plist */; };
 		3252D6602D852FE500429384 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3252D65F2D852FE500429384 /* FirebaseAnalytics */; };
 		3252D6622D852FE500429384 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3252D6612D852FE500429384 /* FirebaseAuth */; };
+		3252D66C2D853F3A00429384 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3252D66B2D853F3A00429384 /* AuthView.swift */; };
+		3252D66F2D85408900429384 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3252D66E2D85408900429384 /* FirebaseFirestore */; };
+		3252D6712D8544EC00429384 /* JUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3252D6702D8544EC00429384 /* JUser.swift */; };
 		32DF056F2D840C4A0025F76D /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF052A2D840C4A0025F76D /* Budget.swift */; };
 		32DF05702D840C4A0025F76D /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF052B2D840C4A0025F76D /* Expense.swift */; };
 		32DF05712D840C4A0025F76D /* Income.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DF052C2D840C4A0025F76D /* Income.swift */; };
@@ -82,8 +101,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		323D4DB62D8FA83A0091E472 /* Figtree-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Black.ttf"; sourceTree = "<group>"; };
+		323D4DB72D8FA83A0091E472 /* Figtree-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-BlackItalic.ttf"; sourceTree = "<group>"; };
+		323D4DB82D8FA83A0091E472 /* Figtree-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Bold.ttf"; sourceTree = "<group>"; };
+		323D4DB92D8FA83A0091E472 /* Figtree-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-BoldItalic.ttf"; sourceTree = "<group>"; };
+		323D4DBA2D8FA83A0091E472 /* Figtree-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-ExtraBold.ttf"; sourceTree = "<group>"; };
+		323D4DBB2D8FA83A0091E472 /* Figtree-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		323D4DBC2D8FA83A0091E472 /* Figtree-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Italic.ttf"; sourceTree = "<group>"; };
+		323D4DBD2D8FA83A0091E472 /* Figtree-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Light.ttf"; sourceTree = "<group>"; };
+		323D4DBE2D8FA83A0091E472 /* Figtree-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-LightItalic.ttf"; sourceTree = "<group>"; };
+		323D4DBF2D8FA83A0091E472 /* Figtree-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Medium.ttf"; sourceTree = "<group>"; };
+		323D4DC02D8FA83A0091E472 /* Figtree-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-MediumItalic.ttf"; sourceTree = "<group>"; };
+		323D4DC12D8FA83A0091E472 /* Figtree-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Regular.ttf"; sourceTree = "<group>"; };
+		323D4DC22D8FA83A0091E472 /* Figtree-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-SemiBold.ttf"; sourceTree = "<group>"; };
+		323D4DC32D8FA83A0091E472 /* Figtree-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		323D4DC52D8FA83A0091E472 /* Figtree-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		323D4DC62D8FA83A0091E472 /* Figtree-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		323D4DD82D8FA8610091E472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3252D65A2D852EB200429384 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		3252D65C2D852F1500429384 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3252D66B2D853F3A00429384 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		3252D6702D8544EC00429384 /* JUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JUser.swift; sourceTree = "<group>"; };
 		32DF04032D8408980025F76D /* JBudget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JBudget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32DF04142D84089A0025F76D /* JBudgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JBudgetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32DF041E2D84089A0025F76D /* JBudgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JBudgetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -161,6 +199,7 @@
 			files = (
 				3252D6602D852FE500429384 /* FirebaseAnalytics in Frameworks */,
 				3252D6622D852FE500429384 /* FirebaseAuth in Frameworks */,
+				3252D66F2D85408900429384 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,12 +220,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		323D4DB42D8FA8090091E472 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				323D4DB52D8FA8140091E472 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		323D4DB52D8FA8140091E472 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				323D4DC72D8FA83A0091E472 /* Figtree */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		323D4DC42D8FA83A0091E472 /* static */ = {
+			isa = PBXGroup;
+			children = (
+				323D4DB62D8FA83A0091E472 /* Figtree-Black.ttf */,
+				323D4DB72D8FA83A0091E472 /* Figtree-BlackItalic.ttf */,
+				323D4DB82D8FA83A0091E472 /* Figtree-Bold.ttf */,
+				323D4DB92D8FA83A0091E472 /* Figtree-BoldItalic.ttf */,
+				323D4DBA2D8FA83A0091E472 /* Figtree-ExtraBold.ttf */,
+				323D4DBB2D8FA83A0091E472 /* Figtree-ExtraBoldItalic.ttf */,
+				323D4DBC2D8FA83A0091E472 /* Figtree-Italic.ttf */,
+				323D4DBD2D8FA83A0091E472 /* Figtree-Light.ttf */,
+				323D4DBE2D8FA83A0091E472 /* Figtree-LightItalic.ttf */,
+				323D4DBF2D8FA83A0091E472 /* Figtree-Medium.ttf */,
+				323D4DC02D8FA83A0091E472 /* Figtree-MediumItalic.ttf */,
+				323D4DC12D8FA83A0091E472 /* Figtree-Regular.ttf */,
+				323D4DC22D8FA83A0091E472 /* Figtree-SemiBold.ttf */,
+				323D4DC32D8FA83A0091E472 /* Figtree-SemiBoldItalic.ttf */,
+			);
+			path = static;
+			sourceTree = "<group>";
+		};
+		323D4DC72D8FA83A0091E472 /* Figtree */ = {
+			isa = PBXGroup;
+			children = (
+				323D4DC42D8FA83A0091E472 /* static */,
+				323D4DC52D8FA83A0091E472 /* Figtree-Italic-VariableFont_wght.ttf */,
+				323D4DC62D8FA83A0091E472 /* Figtree-VariableFont_wght.ttf */,
+			);
+			path = Figtree;
+			sourceTree = "<group>";
+		};
+		3252D6692D85369A00429384 /* AuthServices */ = {
+			isa = PBXGroup;
+			children = (
+				3252D6702D8544EC00429384 /* JUser.swift */,
+				3252D65A2D852EB200429384 /* AuthService.swift */,
+			);
+			path = AuthServices;
+			sourceTree = "<group>";
+		};
+		3252D66A2D853EFF00429384 /* AuthViews */ = {
+			isa = PBXGroup;
+			children = (
+				3252D66B2D853F3A00429384 /* AuthView.swift */,
+			);
+			path = AuthViews;
+			sourceTree = "<group>";
+		};
+		3252D66D2D85408900429384 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		32DF03FA2D8408980025F76D = {
 			isa = PBXGroup;
 			children = (
 				32DF056E2D840C4A0025F76D /* JBudget */,
 				32DF04172D84089A0025F76D /* JBudgetTests */,
 				32DF04212D84089A0025F76D /* JBudgetUITests */,
+				3252D66D2D85408900429384 /* Frameworks */,
 				32DF04042D8408980025F76D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -237,7 +348,7 @@
 			isa = PBXGroup;
 			children = (
 				32DF05382D840C4A0025F76D /* MapLocationService.swift */,
-				3252D65A2D852EB200429384 /* AuthService.swift */,
+				3252D6692D85369A00429384 /* AuthServices */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -361,6 +472,7 @@
 		32DF056A2D840C4A0025F76D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3252D66A2D853EFF00429384 /* AuthViews */,
 				32DF05592D840C4A0025F76D /* Components */,
 				32DF05602D840C4A0025F76D /* SubViews */,
 				32DF05662D840C4A0025F76D /* UI */,
@@ -374,6 +486,8 @@
 		32DF056E2D840C4A0025F76D /* JBudget */ = {
 			isa = PBXGroup;
 			children = (
+				323D4DD82D8FA8610091E472 /* Info.plist */,
+				323D4DB42D8FA8090091E472 /* Resources */,
 				32DF056B2D840C4A0025F76D /* Assets.xcassets */,
 				32DF056C2D840C4A0025F76D /* JBudget.entitlements */,
 				32DF056D2D840C4A0025F76D /* JBudgetApp.swift */,
@@ -409,6 +523,7 @@
 			packageProductDependencies = (
 				3252D65F2D852FE500429384 /* FirebaseAnalytics */,
 				3252D6612D852FE500429384 /* FirebaseAuth */,
+				3252D66E2D85408900429384 /* FirebaseFirestore */,
 			);
 			productName = JBudget;
 			productReference = 32DF04032D8408980025F76D /* JBudget.app */;
@@ -513,6 +628,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				32DF05A02D840C4A0025F76D /* Preview Assets.xcassets in Resources */,
+				323D4DC82D8FA83A0091E472 /* Figtree-VariableFont_wght.ttf in Resources */,
+				323D4DC92D8FA83A0091E472 /* Figtree-Italic.ttf in Resources */,
+				323D4DCA2D8FA83A0091E472 /* Figtree-BoldItalic.ttf in Resources */,
+				323D4DCB2D8FA83A0091E472 /* Figtree-SemiBoldItalic.ttf in Resources */,
+				323D4DCC2D8FA83A0091E472 /* Figtree-Black.ttf in Resources */,
+				323D4DCD2D8FA83A0091E472 /* Figtree-ExtraBoldItalic.ttf in Resources */,
+				323D4DCE2D8FA83A0091E472 /* Figtree-LightItalic.ttf in Resources */,
+				323D4DCF2D8FA83A0091E472 /* Figtree-SemiBold.ttf in Resources */,
+				323D4DD02D8FA83A0091E472 /* Figtree-BlackItalic.ttf in Resources */,
+				323D4DD12D8FA83A0091E472 /* Figtree-Italic-VariableFont_wght.ttf in Resources */,
+				323D4DD22D8FA83A0091E472 /* Figtree-ExtraBold.ttf in Resources */,
+				323D4DD32D8FA83A0091E472 /* Figtree-Bold.ttf in Resources */,
+				323D4DD42D8FA83A0091E472 /* Figtree-MediumItalic.ttf in Resources */,
+				323D4DD52D8FA83A0091E472 /* Figtree-Regular.ttf in Resources */,
+				323D4DD62D8FA83A0091E472 /* Figtree-Medium.ttf in Resources */,
+				323D4DD72D8FA83A0091E472 /* Figtree-Light.ttf in Resources */,
 				32DF05A12D840C4A0025F76D /* Assets.xcassets in Resources */,
 				3252D65D2D852F1500429384 /* GoogleService-Info.plist in Resources */,
 			);
@@ -553,6 +684,7 @@
 				32DF05792D840C4A0025F76D /* MapLocationService.swift in Sources */,
 				32DF057A2D840C4A0025F76D /* CreateBudgetUseCase.swift in Sources */,
 				32DF057B2D840C4A0025F76D /* DeleteBudgetUseCase.swift in Sources */,
+				3252D66C2D853F3A00429384 /* AuthView.swift in Sources */,
 				32DF057C2D840C4A0025F76D /* GetAllBudgetsUseCase.swift in Sources */,
 				32DF057D2D840C4A0025F76D /* UpdateBudgetUseCase.swift in Sources */,
 				32DF057E2D840C4A0025F76D /* CreateExpenseUseCase.swift in Sources */,
@@ -581,6 +713,7 @@
 				32DF05952D840C4A0025F76D /* SheetAddItems.swift in Sources */,
 				32DF05962D840C4A0025F76D /* BudgetView.swift in Sources */,
 				32DF05972D840C4A0025F76D /* CircularProgress.swift in Sources */,
+				3252D6712D8544EC00429384 /* JUser.swift in Sources */,
 				32DF05982D840C4A0025F76D /* SearchBar.swift in Sources */,
 				32DF05992D840C4A0025F76D /* UIMyButton.swift in Sources */,
 				32DF059A2D840C4A0025F76D /* UIMyList.swift in Sources */,
@@ -748,6 +881,8 @@
 				DEVELOPMENT_TEAM = JYU4CZQH8U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JBudget/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Para mejores resultados";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -786,6 +921,8 @@
 				DEVELOPMENT_TEAM = JYU4CZQH8U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JBudget/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Para mejores resultados";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -960,6 +1097,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 3252D65E2D852FE500429384 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
+		};
+		3252D66E2D85408900429384 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3252D65E2D852FE500429384 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -13,3 +13,6 @@ enum GeoError: String, Error {
 }
 
 
+enum AuthError: String, Error {
+    case InvalidCredentials = ""
+}

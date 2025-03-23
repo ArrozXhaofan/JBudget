@@ -11,7 +11,3 @@ struct geoCoordinate: Codable, Hashable {
     var lat: Double
     var lng: Double
 }
-
-
-
-

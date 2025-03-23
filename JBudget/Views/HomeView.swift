@@ -159,9 +159,12 @@ struct HomeView: View {
             }
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
-                    Text("Hi Jeanpiere")
-                        .fontDesign(.rounded)
-                        .fontWeight(.semibold)
+                    HStack {
+                        Image(systemName: "homekit")
+                        Text("Principal")
+                            .font(.custom("Figtree", size: 22))
+                    }
+
                 }
             }
             .sheet(isPresented: $isAddMenuOn) {

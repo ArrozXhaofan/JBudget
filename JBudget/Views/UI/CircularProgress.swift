@@ -34,7 +34,7 @@ struct CircularProgress: View {
             // Barra de progreso circular
             Circle()
                 .trim(from: 0.0, to: progress)
-                .stroke(colorCircle, style: StrokeStyle(lineWidth: 5, lineCap: .round))
+                .stroke(colorCircle, style: StrokeStyle(lineWidth: 5, lineCap: .square))
                 .rotationEffect(.degrees(-90))  // Para empezar desde arriba
                 .frame(width: height ?? 20, height: height ?? 20)
         }

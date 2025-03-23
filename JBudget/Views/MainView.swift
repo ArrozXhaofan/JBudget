@@ -13,11 +13,11 @@ struct MainView: View {
     var body: some View {
         
         TabView {
-            Tab("Home", systemImage: "house") {
+            Tab("Principal", systemImage: "homekit") {
                 HomeView()
             }
             
-            Tab("Explore", systemImage: "mappin.and.ellipse") {
+            Tab("MapWish", systemImage: "globe.americas.fill") {
                 ExploreView()
             }
             
