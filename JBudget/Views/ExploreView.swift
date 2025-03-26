@@ -134,9 +134,11 @@ struct ExploreView: View {
             })
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
-                    Text("Explorer")
-                        .fontDesign(.rounded)
-                        .fontWeight(.semibold)
+                    HStack {
+                        Image(systemName: "globe.americas.fill")
+                        Text("MapWish")
+                            .font(.custom("Figtree", size: 22))
+                    }
                 }
             }
             .navigationBarTitleDisplayMode(.inline)

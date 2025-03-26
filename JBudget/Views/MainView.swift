@@ -13,20 +13,21 @@ struct MainView: View {
     var body: some View {
         
         TabView {
+            
             Tab("Principal", systemImage: "homekit") {
                 HomeView()
+            }
+            
+            Tab("Plans", systemImage: "leaf") {
+                PlansView()
             }
             
             Tab("MapWish", systemImage: "globe.americas.fill") {
                 ExploreView()
             }
             
-            Tab("Home", systemImage: "percent") {
-                ContentUnavailableView("Hola", systemImage: "eye.slash")
-            }
-            
             Tab("Settings", systemImage: "gear") {
-                ContentUnavailableView("Hola", systemImage: "eye.slash")
+                SettingsView()
             }
         }
         .tint(.white)
