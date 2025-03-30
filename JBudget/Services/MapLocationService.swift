@@ -5,12 +5,10 @@
 //  Created by Jean Laura on 28/02/25.
 //
 
-import Foundation
 import MapKit
 import CoreLocation
 
-@Observable
-final class MapLocationService: NSObject, CLLocationManagerDelegate {
+final class MapLocationService: NSObject, CLLocationManagerDelegate, @unchecked Sendable {
     
     var gpsLocation: CLLocation = .init()
     
@@ -24,7 +22,7 @@ final class MapLocationService: NSObject, CLLocationManagerDelegate {
         locationManager.delegate = self
     }
     
-    func searchItemsByName(name: String) async -> [MKMapItem] {
+     func searchItemsByName(name: String) async -> [MKMapItem] {
         
         if name == "" {
             print("Escriba algo para buscar")
@@ -80,6 +78,10 @@ final class MapLocationService: NSObject, CLLocationManagerDelegate {
         locationManager.stopUpdatingLocation()
     }
     
+    
+}
+
+extension MapLocationService {
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         
         guard let location = locations.last else {

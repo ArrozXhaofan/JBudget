@@ -13,7 +13,7 @@ import CoreLocation
 
 
 @Observable
-final class ExploreViewModel {
+@MainActor final class ExploreViewModel {
     
     var myWishes : [Wish] = []
     var searchResults: [MKMapItem] = []
@@ -27,9 +27,8 @@ final class ExploreViewModel {
     //USE CASES
     private var getWishesUseCase: GetAllWishUseCaseProtocol
     private var updateWishUseCase: UpdateWishUseCaseProtocol
-
     
-    @MainActor
+    
     init() {
         self.mapsService = MapLocationService()
         self.getWishesUseCase = GetAllWishUseCase()
@@ -38,7 +37,6 @@ final class ExploreViewModel {
         getWishes()
     }
     
-    @MainActor
     func getWishes() {
         do {
             myWishes = try getWishesUseCase.getAllData()
@@ -49,7 +47,6 @@ final class ExploreViewModel {
         }
     }
     
-    @MainActor
     func addPlace(identifier: UUID, place: geoCoordinate) {
         do {
             try updateWishUseCase.addPlace(identifier: identifier, place: place)
@@ -70,31 +67,34 @@ final class ExploreViewModel {
     }
     
     
-    func searchPlaceByCoordinate(_ coordinate: geoCoordinate) async -> MKMapItem? {
-        do {
-            return try await mapsService.findMKMapItem(for: coordinate)
-            
-        } catch let myError as GeoError {
-            print(myError.rawValue)
-            return nil
-        } catch {
-            print("Error inesperado")
-            return nil
+    func searchPlaceByCoordinate(_ coordinate: geoCoordinate) -> MKMapItem? {
+        
+        var data: MKMapItem? = nil
+        
+        Task {
+            do {
+                let preData = try await mapsService.findMKMapItem(for: coordinate)
+                data = preData
+                
+            } catch let myError as GeoError {
+                print(myError.rawValue)
+            } catch {
+                print("Error inesperado")
+            }
         }
+        
+        return data
+        
     }
     
     
     func getMyLocation() {
-        Task {
-            myLocation = mapsService.gpsLocation
-        }
+        myLocation = mapsService.gpsLocation
     }
     
     func requestUseGps() {
         mapsService.startUpdatingLocation()
     }
-    
-    
     
 }
 

@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import MapKit
+@preconcurrency import MapKit
 
 struct WishCellForAddPlace: View {
     
@@ -19,14 +19,12 @@ struct WishCellForAddPlace: View {
     var body: some View {
         HStack {
             Button {
-                Task {
-                    guard let item = await manager.searchPlaceByCoordinate(item.place!) else {
+                    guard let item =  manager.searchPlaceByCoordinate(item.place!) else {
                         return
                     }
                     withAnimation(.easeInOut(duration: 1)) {
                         manager.cameraPosition = .item(item)
                     }
-                }
                 
             } label: {
                 
@@ -59,14 +57,14 @@ struct WishCellForAddPlace: View {
         .onAppear {
             Task {
                 if let coordinate = item.place {
-                    makItem = await manager.searchPlaceByCoordinate(coordinate)
+                    makItem =  manager.searchPlaceByCoordinate(coordinate)
                 }
             }
         }
         .onChange(of: item.place) { oldValue, newValue in
             Task {
                 if let coordinate = item.place {
-                    makItem = await manager.searchPlaceByCoordinate(coordinate)
+                    makItem =  manager.searchPlaceByCoordinate(coordinate)
                 }
             }
         }

@@ -5,7 +5,7 @@
 //  Created by Jeanpiere Laura on 13/03/25.
 //
 
-let wishPrevData = Wish(name: "My Test Wish",
+@MainActor let wishPrevData = Wish(name: "My Test Wish",
                         descriptionWish: "This is my favorite Wish",
                         amount: 2000,
                         minAmount: 1600,
