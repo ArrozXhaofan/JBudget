@@ -10,7 +10,7 @@ import Foundation
 struct JUser: Codable {
     var userName: String
     var email: String
-    var isVip: Bool
+    var isPremium: Bool
 }
 
 struct userData: Codable {

@@ -13,9 +13,15 @@ struct JBudgetApp: App {
     
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
+    @StateObject var authDelegate = AuthViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            MainView()
+            if authDelegate.jUser == nil {
+                AuthView(manager: authDelegate)
+            } else {
+                MainView()
+            }
         }
     }
 }

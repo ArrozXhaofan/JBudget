@@ -12,7 +12,3 @@ enum GeoError: String, Error {
     case CannotDecodeLocationData
 }
 
-
-enum AuthError: String, Error {
-    case InvalidCredentials = ""
-}

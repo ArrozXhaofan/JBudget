@@ -13,6 +13,7 @@ struct UIMyTextField: View {
     var prompt: String?
     var width: CGFloat = 350
     var keyboardType: UIKeyboardType = .default
+    var capitalizacion: TextInputAutocapitalization = .sentences
     
     private var widthTextField: CGFloat {
         width - 50
@@ -21,12 +22,12 @@ struct UIMyTextField: View {
     var body: some View {
         HStack {
             
-            TextField("",   text: $value,
-                      prompt: Text(prompt ?? "")
+            TextField("",   text: $value, prompt: Text(prompt ?? "")
                 .foregroundStyle(.lightGrayVercel))
-            .frame(width: widthTextField)
+            .padding(.horizontal)
             .font(.subheadline)
             .keyboardType(keyboardType)
+            .textInputAutocapitalization(capitalizacion)
         }
         .frame(width: width, height: 40)
         .background {
