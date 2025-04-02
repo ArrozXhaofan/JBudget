@@ -10,10 +10,11 @@ import Foundation
 @MainActor
 final class AuthViewModel: ObservableObject {
     
-    @Published var haveAccess: Bool = false
+    @Published var verificant: Bool = false
     @Published var jUser: JUser?
     
     @Published var isLoading: Bool = false
+    @Published var chargingScreen: Bool = true
     
     private let manager: AuthServiceProtocol
     
@@ -36,23 +37,24 @@ final class AuthViewModel: ObservableObject {
             
             do {
                 try await manager.createNewUser(email: email, password: password, username: username)
+                getCurrentUser()
                 
             } catch let myError as AuthError {
                 print(myError.rawValue)
             } catch {
                 print(error.localizedDescription)
             }
-            getCurrentUser()
             
             isLoading = false
         }
     }
     
     func getCurrentUser() {
-        Task(priority: .userInitiated) {
+        Task {
             do {
+                chargingScreen = true
                 jUser = try await manager.getCurrentUser()
-                haveAccess.toggle()
+                chargingScreen = false
             } catch let myError as AuthError {
                 print(myError.rawValue)
             } catch {

@@ -17,11 +17,16 @@ struct JBudgetApp: App {
     
     var body: some Scene {
         WindowGroup {
-            if authDelegate.jUser == nil {
-                AuthView(manager: authDelegate)
-            } else {
-                MainView()
+            ZStack {
+                if authDelegate.jUser == nil {
+                    AuthView(manager: authDelegate)
+                } else {
+                    MainView()
+                }
+                
+                LoadingScreenView(manager: authDelegate)
             }
+           
         }
     }
 }

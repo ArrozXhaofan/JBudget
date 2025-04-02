@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3202AD9A2D9DFA0700FE5F33 /* LoadingScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3202AD992D9DFA0700FE5F33 /* LoadingScreenView.swift */; };
 		323D4DC82D8FA83A0091E472 /* Figtree-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 323D4DC62D8FA83A0091E472 /* Figtree-VariableFont_wght.ttf */; };
 		323D4DC92D8FA83A0091E472 /* Figtree-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 323D4DBC2D8FA83A0091E472 /* Figtree-Italic.ttf */; };
 		323D4DCA2D8FA83A0091E472 /* Figtree-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 323D4DB92D8FA83A0091E472 /* Figtree-BoldItalic.ttf */; };
@@ -105,6 +106,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3202AD992D9DFA0700FE5F33 /* LoadingScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreenView.swift; sourceTree = "<group>"; };
 		323D4DB62D8FA83A0091E472 /* Figtree-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Black.ttf"; sourceTree = "<group>"; };
 		323D4DB72D8FA83A0091E472 /* Figtree-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-BlackItalic.ttf"; sourceTree = "<group>"; };
 		323D4DB82D8FA83A0091E472 /* Figtree-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Bold.ttf"; sourceTree = "<group>"; };
@@ -280,6 +282,7 @@
 			children = (
 				3252D6702D8544EC00429384 /* JUser.swift */,
 				3252D65A2D852EB200429384 /* AuthService.swift */,
+				3202AD992D9DFA0700FE5F33 /* LoadingScreenView.swift */,
 			);
 			path = AuthServices;
 			sourceTree = "<group>";
@@ -684,6 +687,7 @@
 			files = (
 				32DF056F2D840C4A0025F76D /* Budget.swift in Sources */,
 				32DF05702D840C4A0025F76D /* Expense.swift in Sources */,
+				3202AD9A2D9DFA0700FE5F33 /* LoadingScreenView.swift in Sources */,
 				323D4DE02D8FB6860091E472 /* PlansView.swift in Sources */,
 				32DF05712D840C4A0025F76D /* Income.swift in Sources */,
 				32DF05722D840C4A0025F76D /* Wish.swift in Sources */,
